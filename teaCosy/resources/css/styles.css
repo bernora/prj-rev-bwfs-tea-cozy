@@ -1,0 +1,154 @@
+
+
+/* Generic styling*/
+
+body {
+  background-color: black;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  opacity: 0.9;
+  text-align: center;
+}
+
+a {
+  color: inherit;
+}
+
+h1, h2, h3 {
+  margin: 0;
+}
+
+
+/* Shared classes */
+
+.backgroundBlack {
+  background-color: black;
+}
+
+.titleContainer {
+  width: 100%;
+  color: inherit;
+}
+
+.mainTitle {
+  margin: 15px 0;
+}
+
+.secondaryTitle {
+  margin: 20px 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 70px auto;
+}
+
+.grid {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/* Menu bar styling*/
+
+.menuBar {
+  width: auto;
+  height: 69px;
+  display: flex;
+  flex-flow: row;
+  position: fixed;
+  align-items: center;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 10;
+  padding: 0 20px;
+  background-color: black;
+  border-bottom: 1px solid seashell;
+}
+
+.menuBarLogo {
+  height: 50px;
+}
+
+.menuBarNav {
+  min-width: 50%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  margin-left: auto;
+}
+
+.menuBarNavLink {
+  padding-left: 40px;
+}
+
+
+/*Styling for Hero module */
+
+#heroContainer {
+  width: 1200px;
+  height: 700px;
+  background-image: url("../img-mission-background.jpg");
+}
+
+/*Stying for Featured Tea Section*/
+
+#featuredContainer {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.featuredItem {
+  padding: 10px;
+}
+
+.featuredItemTitle {
+  margin: 0;
+  padding-top: 10px;
+  font-size: 22px;
+}
+
+.featuredItem img {
+  width: 300px;
+  height: 200px;
+}
+
+/* Location stying */
+
+#locationContainer {
+  width: 1200px;
+  height: 500px;
+  background-image: url("../img-locations-background.jpg");
+}
+
+.locationItem {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 20px;
+  opacity: 1;
+}
+
+/* Contact info and footer styling */
+
+.contactInfo {
+  height: 200px;
+}
+
+footer {
+  margin-left: 20px;
+  text-align: left;
+}
